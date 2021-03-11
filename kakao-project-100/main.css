@@ -1,0 +1,66 @@
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    min-width: 280px;
+    max-width: 640px;
+    margin: 0 auto;
+    /* background-color: pink; */
+    font-family: "Noto Sans KR", serif;
+}
+
+header {
+    background-color: white;
+}
+
+.header__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon__berger_menu {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+.header__tab {
+    /* overflow: hidden; */
+    border-bottom: 0.5px solid #ccc;
+    /* background-color: #f1f1f1; */
+    list-style: none;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding: 0;
+}
+
+.header__tab li {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 400;
+    color: grey;
+}
+
+.header__tab :nth-child(1) {
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.header__tab li:hover {
+    color: orange;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 25px;
+
+    font-weight: 400;
+}
+header h1 b {
+    font-weight: 600;
+}
